@@ -1,0 +1,1 @@
+g++ -shared -fPIC -o $1lib/libadd.so $2/lib/add.cpp -lgmp
