@@ -22,6 +22,6 @@
     
     <Target Name="PostBuild" AfterTargets="PostBuildEvent">
         <Exec Command="chmod +x $(OutputPath)lib/compile.sh" />
-        <Exec Command="$(OutputPath)lib/compile.sh $(OutputPath) $(ProjectDir)" />
+        <Exec Command="$(OutputPath)lib/compile.sh $(OutputPath)" />
     </Target>
 </Project>
